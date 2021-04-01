@@ -1,10 +1,7 @@
-import App from './App.svelte';
+import Login from './pages/Login.svelte';
 
-const app = new App({
+const login = new Login({
 	target: document.body,
-	props: {
-		name: 'Project Share'
-	}
 });
 
-export default app;
+export default login;
