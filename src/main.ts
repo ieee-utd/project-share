@@ -1,10 +1,7 @@
-import App from './App.svelte';
+import Upload from './pages/Upload.svelte';
 
-const app = new App({
+const upload = new Upload({
 	target: document.body,
-	props: {
-		name: 'Project Share'
-	}
-});
+})
 
-export default app;
+export default upload;
