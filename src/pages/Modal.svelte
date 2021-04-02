@@ -61,7 +61,7 @@
 		<div class = "course">
 			<h class = "coursetag"> 
 				<input bind:value = {classCourse} placeholder = "Enter Course section"/>
-				<input bind:value = {clAss} placeholder= "Enter Class"/>
+				<input bind:value = {clAss} placeholder= "Enter class"/>
 				<input bind:value = {tags}  placeholder = "Enter Tag"/>
 			</h>
 		</div>
