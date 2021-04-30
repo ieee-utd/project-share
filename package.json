@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "sirv-cli": "^1.0.0",
-    "svelte-file-dropzone": "^0.0.15"
+    "svelte-file-dropzone": "0.0.15"
   }
 }
