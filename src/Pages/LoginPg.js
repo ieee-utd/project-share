@@ -31,11 +31,11 @@ export default function SignInSide() {
         <Grid
           item xs={0} sm={4} md={6}
           sx={{
-            backgroundImage: '',
+            backgroundImage: `url(https://engineering.utdallas.edu/DCAS/images/IEEE-Logo.png)`,
             backgroundRepeat: 'no-repeat',
             backgroundColor: (t) =>
               t.palette.mode === 'light' ? t.palette.grey[200] : t.palette.grey[900],
-            backgroundSize: 'cover',
+            backgroundSize: 'contain',
             backgroundPosition: 'center',
           }}
         />

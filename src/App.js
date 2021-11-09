@@ -1,6 +1,5 @@
 import './App.css';
 import Dashboard from './Pages/Dashboard';
-import NavBar from './Components/NavBar';
 import SignInSide from './Pages/LoginPg';
 import { 
 BrowserRouter as Router,
