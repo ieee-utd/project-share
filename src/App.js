@@ -1,4 +1,5 @@
 import './App.css';
+import Dashboard from './Pages/Dashboard';
 import NavBar from './Components/NavBar';
 import SignInSide from './Pages/LoginPg';
 import { 
@@ -11,7 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='' element={<NavBar />} />
+        <Route path='' element={<Dashboard />} />
         <Route path='login' element={<SignInSide />} />
       </Routes>
     </Router>
