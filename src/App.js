@@ -1,6 +1,7 @@
 import './App.css';
 import Dashboard from './Pages/Dashboard';
-import SignInSide from './Pages/LoginPg';
+import Quiz from './Pages/Quiz'
+import Login from './Pages/Login';
 import { 
 BrowserRouter as Router,
 Routes,
@@ -12,7 +13,11 @@ function App() {
     <Router>
       <Routes>
         <Route path='' element={<Dashboard />} />
-        <Route path='login' element={<SignInSide />} />
+        <Route path='quiz' element={<Quiz />} />
+        <Route path='electronic-circuits' element={<Quiz />} />
+        <Route path='data-structures' element={<Quiz />} />
+        <Route path='linear-algebra' element={<Quiz />} />
+        <Route path='login' element={<Login />} />
       </Routes>
     </Router>
   );
