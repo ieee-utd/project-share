@@ -16,7 +16,7 @@ import Button from '@mui/material/Button';
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import { mainListItems, secondaryListItems } from '../Components/listItems';
-
+import {FooterContainer} from '../containers/footer'
 const drawerWidth = 240;
 
 const AppBar = styled(MuiAppBar, {
@@ -193,6 +193,7 @@ function DashboardContent() {
           </Container>
         </Box>
       </Box>
+      <FooterContainer />
     </ThemeProvider>
   );
 }
